@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1573004976302,
+  "index": "/ng-apod/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/ng-apod/favicon.ico",
+        "/ng-apod/index.html",
+        "/ng-apod/main-es2015.6a7680ae4ffcae0c77e1.js",
+        "/ng-apod/main-es5.6a7680ae4ffcae0c77e1.js",
+        "/ng-apod/manifest.webmanifest",
+        "/ng-apod/polyfills-es2015.2987770fde9daa1d8a2e.js",
+        "/ng-apod/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
+        "/ng-apod/runtime-es2015.edb2fcf2778e7bf1d426.js",
+        "/ng-apod/runtime-es5.edb2fcf2778e7bf1d426.js",
+        "/ng-apod/styles.09e2c710755c8867a460.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/ng-apod/assets/icons/icon-128x128.png",
+        "/ng-apod/assets/icons/icon-144x144.png",
+        "/ng-apod/assets/icons/icon-152x152.png",
+        "/ng-apod/assets/icons/icon-192x192.png",
+        "/ng-apod/assets/icons/icon-384x384.png",
+        "/ng-apod/assets/icons/icon-512x512.png",
+        "/ng-apod/assets/icons/icon-72x72.png",
+        "/ng-apod/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/ng-apod/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/ng-apod/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/ng-apod/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/ng-apod/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/ng-apod/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/ng-apod/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/ng-apod/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/ng-apod/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/ng-apod/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/ng-apod/index.html": "d62913eb738f95cb5bd3681ec92334affe2aa69f",
+    "/ng-apod/main-es2015.6a7680ae4ffcae0c77e1.js": "d31a79bedb4b210ebb141e6a4f95b79464146fdc",
+    "/ng-apod/main-es5.6a7680ae4ffcae0c77e1.js": "9a13cad452697117d457bb91f414e82c97bd9990",
+    "/ng-apod/manifest.webmanifest": "40da7dd0e5e563f6fd0379a6dd5e6abbbb7b248b",
+    "/ng-apod/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/ng-apod/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "45c51483238468881240579c3fdecd19144cff17",
+    "/ng-apod/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/ng-apod/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/ng-apod/styles.09e2c710755c8867a460.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

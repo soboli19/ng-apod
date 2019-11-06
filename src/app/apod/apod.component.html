@@ -8,7 +8,7 @@
       be treated as executable code.
     -->
     <!-- Only show the image element if the media_type is set to image -->
-    <img *ngIf="apod.media_type==='image'" [src]="apod.url" [alt]="apod.title">
+    <img *ngIf="apod.media_type==='image'" [src]="apod.url" [alt]="apod.title"> 
   
     <div id="video" *ngIf="apod.media_type==='video'">
     <!-- Display and embed the YouTube video if the media_type is set to video -->
